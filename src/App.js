@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import Resume from './components/resume-link/resume-link.component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>Nick's Resume-React-App</p>
+        <Resume/>
       </header>
     </div>
   );

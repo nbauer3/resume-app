@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import doc from '../resume-link/Bauer-Nicholas_BAH-Resume.docx';
+import pdf from '../resume-link/Bauer-Nicholas_BAH-Resume.pdf';
 
-import './resume-link.styles.scss';
+class Download extends Component {
 
-const Resume = () => (
-    <a 
-        href='/Bauer-Nicholas_BAH-Resume.pdf' 
-        target='_blank' 
-        >DOWNLOAD RESUME</a>
-);
+  render() {
+    return (
+    <div className = "App">
+        <div>
+            <a href = {doc} target = "_blank"
+            rel="noopener noreferrer"
+            >Download Resume</a>
+        </div>
+        <div>
+            <a href = {pdf} target = "_blank"
+            rel="noopener noreferrer"
+            >View PDF</a>
+        </div>
+    </div>
+    );
+  }
+}
 
-export default Resume;
+export default Download;

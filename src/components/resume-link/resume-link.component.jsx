@@ -7,7 +7,7 @@ class Download extends Component {
 
   render() {
     return (
-    <div className = "App">
+    <div className = "Download">
         <div>
             <a href = {doc} 
             target = "_blank"

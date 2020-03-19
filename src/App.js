@@ -11,6 +11,7 @@ function App() {
       <header className="App-header">
         <img src= {pic} alt = 'Pic of Nic'/>
         <h1>Nick's Resume App</h1>
+        </header>
         <div className="description">
           <p>I have acquired an abundance of experience developing, debugging,
              and testing code.  I am familiar with Linux, Unix, Windows, and Mac 
@@ -25,7 +26,6 @@ function App() {
           </p>
         </div>
         <Download/>
-      </header>
     </div>
   );
 }

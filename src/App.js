@@ -13,16 +13,23 @@ function App() {
         <h1>Nick's Resume App</h1>
         </header>
         <div className="description">
-          <p>I have acquired an abundance of experience developing, debugging,
-             and testing code.  I am familiar with Linux, Unix, Windows, and Mac 
-             Operating Systems. I have also learned to manage, manipulate and test 
-             databases within a RDBMS using SQL scripting. In addition to 
-             programming, I can also perform many types of data analysis, such as 
-             interpreting data and analyzing the results using statistical 
-             techniques to generate easy to interpret reports. I have gained 
-             experience in the following programs:
-            ·Java, HTML, CSS, JavaScript. SAS, MATLAB, R, SQL, JMP, Python & Maple
-            ·Microsoft: (Excel, Word, PowerPoint)
+          <p>
+            I have acquired an abundance of experience developing, debugging,
+            and testing code.  I am familiar with Linux, Unix, Windows, and Mac 
+            Operating Systems. I have also learned to manage, manipulate and test 
+            databases within a RDBMS using SQL scripting. In addition to 
+            programming, I can also perform many types of data analysis/science, such as 
+            interpreting data and analyzing the results using statistical 
+            techniques to generate easy to interpret reports.
+          </p>
+        </div>
+        <div className="description-tech">
+          <p>
+            Programming Languages: Java, HTML, CSS, SQL, Maple
+            MATLAB, SAS, Javascript, R, JMP, Python , PHP, XML, Apex <br/>
+            Databases: MySQL, HSQL, NoSQL<br/>
+            Frameworks: Node.js, React.js, Express, Spring Boot<br/>
+            Operating Systems: Windows, MacOS, Linux, Unix<br/>
           </p>
         </div>
         <Download/>

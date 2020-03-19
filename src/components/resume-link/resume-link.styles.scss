@@ -1,11 +1,15 @@
-a.visited {
-    color: white;
+button.hover {
+    color: red;
 }
 
-a.hover {
-    color: red;
+button {
+    background-color: blue;
+    color: white;
+    border-width: 5px;
+    border-color: dark gray;
 }
 
 a {
     color: blue;
+    text-decoration: none;
 }

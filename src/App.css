@@ -40,4 +40,26 @@ img {
   border-radius: 10px;
   border-width: 10px;
   padding: 20px;
+  margin: 20px;
+}
+
+.description-tech {
+  width: 80%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+.Download {
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 10px;
+  padding: 20px;
+  margin: 20px;
 }

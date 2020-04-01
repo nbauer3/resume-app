@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src= {pic} alt = 'Pic of Nic'/>
-        <h1>Nick's Resume App</h1>
+        <h1>Nicholas Joseph Bauer</h1>
         </header>
         <div className="description">
           <p>
